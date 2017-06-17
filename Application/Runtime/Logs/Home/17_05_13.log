@@ -1,0 +1,1052 @@
+[ 2017-05-13T01:32:37+08:00 ] 66.249.66.126 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T05:26:03+08:00 ] 180.153.236.181 /zenna/1355721.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Zenna
+
+[ 2017-05-13T05:26:16+08:00 ] 180.153.236.109 /xthhh/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Xthhh
+
+[ 2017-05-13T06:50:23+08:00 ] 178.255.215.82 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-05-13T06:50:24+08:00 ] 178.255.215.82 /tansuo/UFO/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Tansuo
+
+[ 2017-05-13T07:24:14+08:00 ] 157.55.39.23 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-05-13T07:24:19+08:00 ] 40.77.167.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T10:35:56+08:00 ] 203.208.60.236 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-05-13T10:46:35+08:00 ] 40.77.167.11 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T11:23:06+08:00 ] 46.165.197.142 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-05-13T11:23:08+08:00 ] 46.165.197.142 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T13:17:17+08:00 ] 218.108.75.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T13:17:43+08:00 ] 218.108.75.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T13:17:48+08:00 ] 218.108.75.202 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+
+[ 2017-05-13T13:17:58+08:00 ] 218.108.75.202 /wcase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T13:18:02+08:00 ] 218.108.75.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T13:18:03+08:00 ] 218.108.75.202 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T17:10:48+08:00 ] 203.208.60.246 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-05-13T17:10:48+08:00 ] 203.208.60.246 /Index/info/ids/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T18:58:47+08:00 ] 203.208.60.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_basevideo` [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `link_mobile`,`mp4_mobile`,`sltpath` FROM `xpc_basevideo` WHERE ( is_show=1 and is_main=0 ) ORDER BY id desc,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_danscenes` [ RunTime:0.0000s ]
+SQL: SELECT st.title,dan.cate,dan.sltpath FROM xpc_danscenes dan left join  xpc_scenestype as st on st.id=dan.cate  WHERE ( dan.is_show=1 ) ORDER BY dan.id desc ,dan.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_duoscenes` [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '11' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '12' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '14' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '15' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '16' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '17' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '18' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '19' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '20' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '21' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '22' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0156s ]
+SQL: SELECT sd.ytgpath FROM xpc_duoscenes sd left join xpc_scenestype as st on st.id=sd.cate  WHERE `cate` = '23' AND `is_show` = 1 ORDER BY sd.id desc ,sd.pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_video` WHERE ( is_show=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_service` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_service` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( isshow=1 ) ORDER BY id desc ,pubtime desc LIMIT 2,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+NOTIC: [8] Undefined index: vTime D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-13T21:50:09+08:00 ] 42.236.99.16 /news.asp?tid=9729868.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:50:09+08:00 ] 42.236.99.30 /news.asp?tid=1516723.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:50:10+08:00 ] 42.236.10.82 /news.asp?tid=458288.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:50:10+08:00 ] 42.236.10.74 /riqsd/2328030.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Riqsd
+
+[ 2017-05-13T21:50:10+08:00 ] 42.236.10.72 /news.asp?tid=7793721.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:50:13+08:00 ] 42.236.10.82 /yxhrf/7516864.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Yxhrf
+
+[ 2017-05-13T21:50:52+08:00 ] 180.153.236.165 /news.asp?tid=6393121.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:53:14+08:00 ] 180.153.236.11 /mauha/1472275.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Mauha
+
+[ 2017-05-13T21:53:15+08:00 ] 42.236.99.79 /kalns/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kalns
+
+[ 2017-05-13T21:53:48+08:00 ] 42.236.10.113 /akbgj/5732801.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Akbgj
+
+[ 2017-05-13T21:53:51+08:00 ] 42.236.10.76 /sqlex/8039361.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Sqlex
+
+[ 2017-05-13T21:53:55+08:00 ] 42.236.10.76 /wrxqn/3789015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wrxqn
+
+[ 2017-05-13T21:53:57+08:00 ] 42.236.10.77 /cikst/6214521.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Cikst
+
+[ 2017-05-13T21:54:02+08:00 ] 42.236.10.115 /rzfbo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rzfbo
+
+[ 2017-05-13T21:54:09+08:00 ] 42.236.10.77 /qdjbg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Qdjbg
+
+[ 2017-05-13T21:54:11+08:00 ] 42.236.10.112 /hwxwd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Hwxwd
+
+[ 2017-05-13T21:54:19+08:00 ] 42.236.99.79 /news.asp?tid=8526586.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:22+08:00 ] 42.236.10.76 /mikmg/7495012.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Mikmg
+
+[ 2017-05-13T21:54:24+08:00 ] 42.236.10.104 /news.asp?tid=1036115.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:27+08:00 ] 42.236.10.115 /280/2016/0519/611861.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:280
+
+[ 2017-05-13T21:54:29+08:00 ] 42.236.10.115 /news.asp?tid=5227752.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:30+08:00 ] 42.236.99.16 /news.asp?tid=6528469.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:39+08:00 ] 180.153.236.11 /news.asp?tid=885693.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:41+08:00 ] 180.153.232.170 /domain_?c6ckz.lvr285d6.net.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Domain_﻿c6ckz.lvr285d6.net
+
+[ 2017-05-13T21:54:51+08:00 ] 42.236.99.16 /jdptm/8939348.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Jdptm
+
+[ 2017-05-13T21:54:53+08:00 ] 42.236.10.80 /aveje/8088851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Aveje
+
+[ 2017-05-13T21:54:53+08:00 ] 42.236.99.79 /ygkau/2126642.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Ygkau
+
+[ 2017-05-13T21:54:54+08:00 ] 42.236.99.79 /news.asp?tid=329362.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:54:56+08:00 ] 42.236.99.79 /kqlem/1576379.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kqlem
+
+[ 2017-05-13T21:54:58+08:00 ] 42.236.10.114 /ozwbi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Ozwbi
+
+[ 2017-05-13T21:55:01+08:00 ] 42.236.10.104 /news.asp?tid=2052963.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:55:54+08:00 ] 180.153.236.165 /kvout/2862507.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kvout
+
+[ 2017-05-13T21:56:00+08:00 ] 42.236.10.76 /news.asp?tid=1037304.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:News.asp
+
+[ 2017-05-13T21:56:08+08:00 ] 42.236.99.30 /ewndj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Ewndj
+
+[ 2017-05-13T21:56:13+08:00 ] 180.153.236.181 /ppxcw/4001498.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Ppxcw
+
+[ 2017-05-13T21:56:16+08:00 ] 42.236.10.111 /628/20161027/n471478010.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:628
+
+[ 2017-05-13T21:56:18+08:00 ] 42.236.10.85 /xyjtq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Xyjtq
+
+[ 2017-05-13T21:56:18+08:00 ] 180.153.236.181 /arcsh/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Arcsh
+
+[ 2017-05-13T21:56:29+08:00 ] 180.153.236.181 /uzyol/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Uzyol
+
+[ 2017-05-13T21:57:04+08:00 ] 180.153.232.170 /drjae/7127944.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Drjae
+

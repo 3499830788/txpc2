@@ -1,0 +1,367 @@
+[ 2017-05-06T10:19:20+08:00 ] 218.108.75.202 /Back/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-05-06T10:19:36+08:00 ] 218.108.75.202 /Back/Login/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_users` WHERE `username` = 'donghailongwang' AND `password` = '0faf04e10b3356283abe5ec4c5927640' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `xpc_users` SET `last_up_time`='2017-05-03 09:19:59',`logintime`='2017-05-06 10:19:36' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-05-06T10:19:37+08:00 ] 218.108.75.202 /Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:19:40+08:00 ] 218.108.75.202 /Back/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:19:40+08:00 ] 218.108.75.202 /Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:19:40+08:00 ] 218.108.75.202 /Back/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_users` [ RunTime:0.0000s ]
+SQL: SELECT `username`,`last_up_time` FROM `xpc_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: one D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\501a98c582e5f59c67658892469e3af6.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:19:45+08:00 ] 218.108.75.202 /Back/News/NewsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Back\Controller\NewsController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xpc_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT u.username,n.* FROM xpc_news n left join xpc_users as u on u.id=n.user_id  LIMIT 0,19   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 151 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 164 行.
+NOTIC: [8] Undefined variable: i D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 184 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:19:51+08:00 ] 218.108.75.202 /Back/News/newsUpdate/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `xpc_users` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `xpc_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\2535f0a77474985914f987012e9f497d.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:20:09+08:00 ] 218.108.75.202 /Back/News/NewsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Back\Controller\NewsController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xpc_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT u.username,n.* FROM xpc_news n left join xpc_users as u on u.id=n.user_id  LIMIT 0,19   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 151 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 164 行.
+NOTIC: [8] Undefined variable: i D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 184 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:20:12+08:00 ] 218.108.75.202 /Back/News/newsUpdate/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_users` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `xpc_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\2535f0a77474985914f987012e9f497d.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:20:23+08:00 ] 218.108.75.202 /Back/News/NewsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Back\Controller\NewsController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xpc_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT u.username,n.* FROM xpc_news n left join xpc_users as u on u.id=n.user_id  LIMIT 0,19   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 151 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 164 行.
+NOTIC: [8] Undefined variable: i D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 184 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\d8ac1f0590113079d454c995d45de23f.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:20:26+08:00 ] 218.108.75.202 /Back/News/newsUpdate/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xpc_users` [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `xpc_users` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xpc_news` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\2535f0a77474985914f987012e9f497d.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-06T10:25:20+08:00 ] 218.108.75.202 /Back/News/newsUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: UPDATE `xpc_news` SET `user_id`='1',`title`='橡皮擦与浙江卫视两度合作',`content`='<p>&nbsp; &nbsp; 对浙江卫视的认识，大概就是《奔跑吧》、《欢乐颂》、《高能少年团》这些被关注和讨论的节目。在2016年，浙江卫视推出了另一档高收视率节目《声音的梦想》，节目宣传广告在橡皮擦基地卫生间场地拍摄。《梦想的声音》是浙江卫视推出的原创音乐圆梦节目，包括张惠妹、田馥甄、林俊杰在内的大牌歌星作为导师出现在节目中，旨在为宣扬“放声歌唱，圆素人演唱会的梦”</p><p><br/></p><p>&nbsp; &nbsp; 第二次在橡皮擦基地再次见到浙江卫视6频道的工作人员，是节目组拍摄一段宣传片。取景在家居风格的旋转楼梯，</p><p><br/></p><p><br/></p><p style=\"text-align: center;\"><img onload=javascript:resizepic(this) onload=\"javascript:resizepic(this)\" src=\"/upload/image/20170503/1493776492582176.jpg\" title=\"1493776492582176.jpg\" alt=\"IMG_0729.jpg\"/></p><p style=\"text-align: center;\"><img onload=javascript:resizepic(this) onload=\"javascript:resizepic(this)\" src=\"/upload/image/20170503/1493776704102854.jpg\" title=\"1493776704102854.jpg\" alt=\"IMG_0685.jpg\"/></p><p><br/></p>',`tag`='浙江卫视,摄影基地',`info`='《梦想的声音》是浙江卫视推出的原创音乐圆梦节目，包括张惠妹、田馥甄、林俊杰在内的大牌歌星作为导师出现在节目中，旨在为宣扬“放声歌唱，圆素人演唱会的梦”',`addtime`='2017-05-06' WHERE ( id=14 ) [ RunTime:0.0000s ]
+
+[ 2017-05-06T10:25:20+08:00 ] 218.108.75.202 /Back/News/newsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+NOTIC: [2] preg_match(): Unknown modifier ':' D:\wwwww\xpcjd2\web\thinkphp\Library\Think\Route.class.php 第 58 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Back\Controller\NewsController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `xpc_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xpc_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT u.username,n.* FROM xpc_news n left join xpc_users as u on u.id=n.user_id  LIMIT 0,19   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 151 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 164 行.
+NOTIC: [8] Undefined variable: i D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 184 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 195 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 194 行.
+NOTIC: [8] Undefined index: p D:\wwwww\xpcjd2\web\Application\Runtime\Cache\Back\990ce0ab880f552d5e550ba190d33c97.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

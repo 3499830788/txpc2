@@ -1,0 +1,62 @@
+.bgf8{
+	height:35px;
+	background-color:#f8f8f8;
+	margin-bottom: 40px;
+}
+.cCon{
+	background-color:#fff;
+	padding:70px 15px 50px;
+}
+.cCon .title{
+	font-size: 30px;
+	color:#2d313c;
+}
+.dz{
+	font-size: 14px;
+}
+.dz .tel{
+	font-size: 24px;
+	font-weight: bold;
+}
+.dz span{
+	font-size:16px;
+}
+.dt{
+	width:100%;
+	height:550px;
+	margin:0 auto;
+}
+.wx{
+	font-size: 14px;
+	color:#333333;
+}
+.wx span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.ewmImg{
+	width:165px;
+}
+.cB{
+	text-align: center;
+}
+.cB div p{
+	margin-bottom: 10px;
+}
+.martb10{
+	margin:10px 0;
+}
+#allmap,
+#allmap div,
+#allmap input,
+#allmap p,
+#allmap span,
+#allmap table,
+#allmap tr,
+#allmap td,
+#allmap ul,
+#allmap li{
+box-sizing:content-box !important;
+-moz-box-sizing:content-box !important; /* Firefox */
+-webkit-box-sizing:content-box !important; /* Safari */
+}
